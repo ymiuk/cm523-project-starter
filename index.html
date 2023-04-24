@@ -13,185 +13,48 @@
     <!-- LINK TO ANY FRAMEWORK STYLES HERE-->
     <!-- LINK TO YOUR STYLES -->
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="./styles/homePage.css">
     <!-- LINK TO EXTERNAL JS LIBRARIES HERE -->
     <!-- LINK TO YOUR JS HERE. NOTE THE DEFER ATTRIBUTE. -->
-<input type="number"  id="numberInput">
-<button id="submitBtn">Get your order!</button>
-<p class="message" id="numCheckP"></p>
-
-<input type="radio" name="coffeeChoices" id="coffeeChoiceLatte" value="latte"> Latte
-<input type="radio" name="coffeeChoices" id="coffeeChoiceEspresso" value="espresso"> Espresso
-<input type="radio" name="coffeeChoices" id="coffeeChoicePourover" value="pour-over"> Pour-over
- 
-<p class="message" id="breakfastP"></p>
-    <script src="scripts/scripts.js" defer></script>
   </head>
   <body>
     <!-- YOUR HTML GOES HERE -->
-      <!--Homepage-->
-      <nav>
-        <ul>
-          <li><a href="#beans">Beans</a></li>
-          <li><a href="#style">Styles</a></li>
-          <li><a href="#tool">Brewing Tools</a></li>
-          <li><a href="#flavors">Flavors</a></li>
-        </ul>
-      </nav>
-      <header>
-        <div>
+    <div class="container">
+      <div class="home_container">
+        <div class="home_text">
           <h1>It's coffee o' clock</h1>
-          <h2>Start Making Your Own Coffee</h2>
-          <button class="centerbt">Start it</button>
+          <h2>Dive Into The Coffee World</h2>
+          <button class="start_btn">Start it</button>
         </div>
-      </header>
-      
-
-<!--step1-->
-  <h1> 
-    <a id="beans"></a>
-    Step 1: Picking Bean
-  </h1>
-
-  <button class="centerbt">see description</button>
-  <article id="step1">
-    <div class="grid-container">
-      <div class="item1">Two types of coffee beans</div>
-      <div class="item2">Arabica: <br> The Arabica coffee bean is renowned globally as the most popular type of coffee. It is widely regarded as superior to Robusta due to its delicate taste and low acidity. Since Arabica is grown at higher elevations, it can be more challenging and expensive to cultivate. Despite being labor-intensive and yielding low volumes, the high demand for these beans commands a higher price. When roasted, Arabica beans become dark brown and have a smooth texture. They develop a diverse flavor profile that can range from slightly sweet and fruity to nutty. Due to its popularity and versatility, Arabica is an ideal choice for a wide range of coffee-based recipes, from freshly brewed coffee to coffee cakes.</div>
-      <div class="item3">Robusta: <br> Compared to Arabica, Robusta coffee is typically known for its harsh and acidic taste, along with its higher caffeine content. Robusta plants can thrive at lower elevations, in hotter climates, and with less moisture. As a result of its less stringent growing requirements and less favorable flavor, Robusta coffee usually commands a lower price than Arabica beans. Consequently, Robusta is the preferred choice for many mass-market commercial coffee products.</div>
+        <div class="home_bg"></div>
+      </div>
+      <div class="coffee_step_container">
+        <div class="step_container">
+          <div class="step_item">
+            <div class="beans step_item_text"></div>
+            <div class="name">BEANS</div>
+            <img src="./images/home_beans.jpeg" alt="">
+          </div>
+          <div class="step_item">
+            <div class="styles step_item_text"></div>
+            <div class="name">STYLES</div>
+            <img src="./images/home_styles.jpg" alt="">
+          </div>
+          <div class="step_item">
+            <div class="tools step_item_text"></div>
+            <div class="name">TOOLS</div>
+            <img src="./images/home_tools.jpeg" alt="">
+          </div>
+          <div class="step_item">
+            <div class="flavors step_item_text"></div>
+            <div class="name">FLAVORS</div>
+            <img src="./images/home_flavors.jpeg" alt="">
+          </div>
+        </div>
+      </div>
     </div>
-    <h3>
-      Roast Level
-    </h3>
-    <p>
-      Light Roasts: Light roasts are coffee beans that are roasted for a shorter amount of time, resulting in a light brown color and a light-bodied coffee. Due to the shorter roasting time, light roasts retain more of the original flavor of the coffee bean. Light roasts tend to have fruity or citrus notes and a higher acidity, along with higher caffeine content. They are an excellent choice if you want to emphasize the bean's original flavor in your recipes or brew a bright cup of coffee to start your day.
-    </p>
-    <p>
-      Medium Roasts: Medium roasts are coffee beans that are roasted for a longer time than light roasts but not as long as dark roasts. They have a medium brown color and a medium-bodied coffee with a more balanced flavor profile. As roast temperature increases, the coffee beans begin to lose their acidity. Medium roasts are a common choice for brewed coffee due to their balanced flavor profiles, pairing well with beans of the Arabica and Excelsa varieties.
-    </p>
-    <p>Dark Roasts: Dark roasts are coffee beans that are roasted for a longer time at higher temperatures, resulting in a dark brown color and a full-bodied coffee with a robust flavor profile. Dark roasts are a great option for delivering intense, rich flavor to recipes, pairing well with beans of the Arabica variety. They are also a popular choice for brewed coffee like espresso or as an ingredient in baked goods, rubs and other recipes, making bitter beans like Robusta or Liberica more palatable. However, due to the longer roasting time, dark roasts have lower acidity and lower caffeine content compared to light and medium roasts.
-    </p>
-    <button class="step">return to last step</button>
-    <button class="step">next step</button>
-  </article>
-
-  
-<!--step2-->
-<h1>
-  <a id="styles"></a>
-  Step 2: coffee Style</h1>
-<article id="step2">
-  <figure>
-    <img src=https://images.unsplash.com/photo-1593231269103-6667d6905882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80>
-  <p>Americano</p> 
-    <ul> 
-      <li>Expresso</li>
-    <li>Hot Water</li>
-    <li>With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water</li>
-  </ul>
-  <figure>
-		<img src=https://images.unsplash.com/photo-1574914629385-46448b767aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80>
-  <p>Latte</p>
-  <ul>
-    <li>Expresso</li>
-    <li>Steamed milk</li>
-    <li>As the most popular coffee drink out there, the latte consists of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice</li>
-  </ul>
-  <figure>
-    <img src=https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60>
-  <p>Expresso</p>
-  <ul>
-    <li>An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos</li>
-  </ul>
-  <figure>
-    <img src=https://images.unsplash.com/photo-1618576230663-9714aecfb99a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9jaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60>
-  <p>Mocha</p>
-  <ul>
-    <li>Expresso</li>
-    <li>Chocolate</li>
-    <li>Steamed milk</li>
-  </ul>
-  <figure>
-    <img src=https://upload.wikimedia.org/wikipedia/commons/c/c8/Cappuccino_at_Sightglass_Coffee.jpg>
-  <p>Cappuccino</p>
-    <ul>
-      <li>Expresso</li>
-      <li>Steamed milk</li>
-      <li>Foam</li>
-      <li>Cappuccino is a type of latte that typically contains more foam than steamed milk and is often topped with a sprinkle of cocoa powder or cinnamon. Variations of this drink may include the use of cream instead of milk or the addition of flavor shots</li>
-    </ul>
-  <figure>
-    <img src=https://www.acouplecooks.com/wp-content/uploads/2020/10/how-to-make-a-macchiato-003s.jpg>
-  <p>Macchiato</p>
-    <ul>
-      <li>Espresso shot</li>
-      <li>Foam</li>
-      <li>Macchiato is an espresso-based beverage that features a modest layer of foam on its surface, striking a balance between the cappuccino and the doppio</li>
-    </ul>
-  </div>
-  <button class="step">return to last step</button>
-  <button class="step">next step</button>
-</article>
-
-
-<!--step3-->
-<h1>
-  <a id="tool"></a>
-  Step 3: Brewing Tools</h1>
-<article id="step3">
-  <figure>
-    <img src=https://images.unsplash.com/photo-1558996338-294a904a1815?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80>
-  <button class="centerbt">What's the difference?</button>
-  <figure>
-    <img src=https://cb.scene7.com/is/image/Crate/BodumChmbrd34ozFrenchPressSHF16/$web_pdp_main_carousel_high$/220913133654/bodum-chambord-34-ounce-french-press.jpg>
-  <p>French Press: Also known as a press pot or plunger pot, a French Press uses a cylindrical glass or stainless steel beaker and a plunger with a metal or nylon mesh filter to brew coffee. It produces a full-bodied and flavorful cup of coffee.
-  </p>
-  <figure>
-    <img src=https://cb.scene7.com/is/image/Crate/SmegDripCoffeeMakerCrmSHS19/$web_pdp_main_carousel_high$/220913144047/smeg-drip-coffee-maker--cream.jpg>
-  <p>Drip Coffee Maker: This is the most common coffee brewing method used in households. It uses a paper filter to drip hot water over ground coffee. It produces a clean and consistent cup of coffee.
-  </p>
-  <figure>
-    <img src=https://cb.scene7.com/is/image/Crate/BestSellerPourOverGiftSetSSF21/$web_pdp_main_carousel_high$/211011154354/bestseller-pour-over-coffee-gift-set.jpg>
-  <figure>
-		<img src=https://images.unsplash.com/photo-1545665613-29394cee622b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80>
-  <p>Pour-over Coffee Maker: This method uses a cone-shaped dripper with a paper filter to brew coffee. It requires pouring hot water over the ground coffee in a slow and steady stream. It produces a clean and bright cup of coffee.
-  </p>
-  <p>
-    Espresso Machine: This brewing method uses high pressure to extract coffee from finely ground beans. It produces a concentrated shot of coffee with a creamy and rich flavor. 
-  </p>
-  <p>Cold Brew Maker: This brewing method involves steeping coffee grounds in cold water for several hours to produce a smooth and less acidic cup of coffee. It's a great option for people who prefer iced coffee.
-  </p>
-  <button class="step">return to last step</button>
-  <button class="step">next step</button>
-</article>
-
-
-<!--step4-->
-<h1>
-  <a id="flavors"></a>
-  Step 4: Adding flavor</h1>
-<article id="step4">
-  <p>Whole Milk: Whole milk is the most common type of milk used in coffee. It adds a rich and creamy texture to the coffee and has a slightly sweet taste.  
-  </p>
-  <p>Skim Milk: Skim milk is a low-fat alternative to whole milk that can be used in coffee. It has a thinner texture and a slightly tangy taste.  
-  </p>
-  <p>Soy Milk: Soy milk is a popular non-dairy alternative to milk that can be used in coffee. It has a slightly nutty flavor and a creamy texture.
-  </p>
-  <p>Almond Milk: Almond milk is another non-dairy alternative to milk that can be used in coffee. It has a nutty flavor and a slightly sweet taste.
-  </p>
-  <p>Vanilla Syrup: Vanilla syrup is a sweet syrup that can be added to coffee to give it a sweet and vanilla flavor. It is a popular choice for lattes and cappuccinos.
-  </p>
-  <p>Caramel Syrup: Caramel syrup is a sweet syrup that can be added to coffee to give it a rich and caramelized flavor. It is a popular choice for caramel lattes and macchiatos.
-  </p>
-  <p>Chocolate Syrup: Chocolate syrup is a sweet syrup that can be added to coffee to give it a rich and chocolatey flavor. It is a popular choice for mochas and hot chocolate.
-  </p>
-  <button class="step">return to last step</button>
-  <button class="step">next step</button>
-</article>
-
-
-<!--Last Page-->
-<h1>Your coffee is ready</h1>
-<button class="centerbt">Make another one!</button>
-    <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
   </body>
+  
+    <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
+  <script src="./scripts/scripts.js"></script>
 </html>
