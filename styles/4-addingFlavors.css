@@ -16,7 +16,7 @@
     color: #C7baab;
     margin: 0 -150px;
   }
-  .container button a{
+  .container button {
     background-color: #C7baab;
     border: none;
     color: #5e3817;
@@ -29,6 +29,11 @@
     margin-top: 5.5em;
     border-radius: 10px;
   }
+  .container button a{
+    color: #5e3817;
+    text-decoration: none;
+  }
+
   .container .step {
     background-color: #C7baab;
     border: none;

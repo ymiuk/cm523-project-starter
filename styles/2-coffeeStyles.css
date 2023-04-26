@@ -111,7 +111,7 @@
     background-position: center;
     background-size: cover;
   }
-  .container button a{
+  .container button {
     background-color: #C7baab;
     border: none;
     color: #5e3817;
@@ -123,6 +123,10 @@
     font-size: 18px;
     margin-top: 5.5em;
     border-radius: 10px;
+  }
+  .container button a{
+    color: #5e3817;
+    text-decoration: none;
   }
   .container .step {
     background-color: #C7baab;
