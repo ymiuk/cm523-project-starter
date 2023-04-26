@@ -28,7 +28,7 @@
     width: 80%;
     border-radius: 20px;
   }
-  .container button {
+  .container button a{
     background-color: #C7baab;
     border: none;
     color: #5e3817;

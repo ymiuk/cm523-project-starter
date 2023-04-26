@@ -111,7 +111,7 @@
     background-position: center;
     background-size: cover;
   }
-  .container button {
+  .container button a{
     background-color: #C7baab;
     border: none;
     color: #5e3817;
