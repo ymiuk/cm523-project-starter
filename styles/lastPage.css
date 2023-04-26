@@ -73,12 +73,7 @@
     background-color: rgb(113, 58, 1);
     color: #fff;
   }
-  .chosen {
-    transform: scale(1.1);
-    background-color: rgb(113, 58, 1);
-    color: #fff;
-  }
-  .back a{
+  .back {
     background-color: #fff;
     border: none;
     color: #5e3817;
@@ -89,5 +84,17 @@
     font-size: 18px;
     border-radius: 10px;
   }
+  .back a{
+    color:#5e3817;
+    text-align: center;
+    text-decoration: none;
+  }
+  .back:hover{
+    transform: scale(1.1);
+    background-color: rgb(113, 58, 1);
+    color: #fff;
+  }
+
+  
 
   
