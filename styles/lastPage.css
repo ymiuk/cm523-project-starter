@@ -78,7 +78,7 @@
     background-color: rgb(113, 58, 1);
     color: #fff;
   }
-  .back {
+  .back a{
     background-color: #fff;
     border: none;
     color: #5e3817;
@@ -89,4 +89,5 @@
     font-size: 18px;
     border-radius: 10px;
   }
+
   

@@ -82,32 +82,32 @@
     justify-content: space-around;
   }
   .container .card_container .card_inner .americano {
-    background-image: url('https://images.unsplash.com/photo-1593231269103-6667d6905882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80');
+    background-image: url('/images/americano.jpg');
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .latte {
-    background-image: url('https://images.unsplash.com/photo-1574914629385-46448b767aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+    background-image: url('/images/latte.jpeg');
     background-position: center;
     background-size: cover;
   }
-  .container .card_container .card_inner .expresso {
-    background-image: url('https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+  .container .card_container .card_inner .espresso {
+    background-image: url('/images/espresso.jpg');
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .mocha {
-    background-image: url('https://images.unsplash.com/photo-1618576230663-9714aecfb99a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9jaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+    background-image: url('/images/mocha.jpeg');
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .cappuccino {
-    background-image: url('https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('/images/cappuccino.jpg');
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .macchiato {
-    background-image: url('https://www.acouplecooks.com/wp-content/uploads/2020/10/how-to-make-a-macchiato-003s.jpg');
+    background-image: url('/images/macchiato.jpeg');
     background-position: center;
     background-size: cover;
   }
