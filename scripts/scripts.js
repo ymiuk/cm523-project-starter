@@ -11,7 +11,7 @@ async function stepFunc(el, url) {
 
 // step to sub-page
 Promise.all([
-  stepFunc(stepItemArr[0],'../beans.html'), 
+  stepFunc(stepItemArr[0],'beans.html'), 
   stepFunc(stepItemArr[1],'../2-coffeeStyles.html'),
   stepFunc(stepItemArr[2],'../3-brewingTools.html'),
   stepFunc(stepItemArr[3],'../4-addingFlavors.html')
