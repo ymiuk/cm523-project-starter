@@ -87,7 +87,7 @@
     background-size: cover;
   }
   .container .card_container .card_inner .latte {
-    background-image: url("/images/latte.jpeg");
+    background-image: url('../images/latte.jpeg');
     background-position: center;
     background-size: cover;
   }
