@@ -82,7 +82,7 @@
     justify-content: space-around;
   }
   .container .card_container .card_inner .americano {
-    background-image: url("/images/americano.jpg");
+    background-image: url('./images/americano.jpg');
     background-position: center;
     background-size: cover;
   }
