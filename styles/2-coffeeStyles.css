@@ -82,32 +82,32 @@
     justify-content: space-around;
   }
   .container .card_container .card_inner .americano {
-    background-image: url('/images/americano.jpg');
+    background-image: url("/images/americano.jpg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .latte {
-    background-image: url('/images/latte.jpeg');
+    background-image: url("/images/latte.jpeg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .espresso {
-    background-image: url('/images/espresso.jpg');
+    background-image: url("/images/espresso.jpg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .mocha {
-    background-image: url('/images/mocha.jpeg');
+    background-image: url("/images/mocha.jpeg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .cappuccino {
-    background-image: url('/images/cappuccino.jpg');
+    background-image: url("/images/cappuccino.jpg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .macchiato {
-    background-image: url('/images/macchiato.jpeg');
+    background-image: url("/images/macchiato.jpeg");
     background-position: center;
     background-size: cover;
   }

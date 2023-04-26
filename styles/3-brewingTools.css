@@ -93,27 +93,27 @@
     justify-content: space-around;
   }
   .container .card_container .card_inner .french_press {
-    background-image: url('/images/frenchpress.jpeg');
+    background-image: url("/images/frenchpress.jpeg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .drip_coffee_maker {
-    background-image: url('/images/drip-coffee-maker.jpeg');
+    background-image: url("/images/drip-coffee-maker.jpeg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .pour_over_coffee_maker {
-    background-image: url('/images/home_tools.jpg');
+    background-image: url("/images/home_tools.jpg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .espresso_machine {
-    background-image: url('/images/espressomachine.jpeg');
+    background-image: url("/images/espresso.jpg");
     background-position: center;
     background-size: cover;
   }
   .container .card_container .card_inner .cold_brew_maker {
-    background-image: url('/images/coldbrewmaker.jpeg');
+    background-image: url("/images/coldbrewmaker.jpeg");
     background-position: center;
     background-size: cover;
   }
