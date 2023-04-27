@@ -44,7 +44,7 @@ submitBtn.addEventListener('click', () => {
 })
 
 // Back to homepage
-/*
+
 backBtn.addEventListener('click', () => {
   window.location.href = '../index.html'
 })
