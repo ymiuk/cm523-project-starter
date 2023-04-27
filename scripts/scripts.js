@@ -20,7 +20,7 @@ Promise.all([
 // scrolling from top page and bottom page 
 let isStepPage = false
 
-// click start to move
+// click Start to move
 startBtn.addEventListener('click', () => {
   isStepPage = true
   homeContainer.style.marginTop = '-100vh'
