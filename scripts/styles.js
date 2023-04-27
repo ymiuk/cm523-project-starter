@@ -1,5 +1,5 @@
 const stepArr = Array.from(document.querySelectorAll('.step'))
-
+/*
 stepArr[0].addEventListener('click', () => {
   window.location.href = '../beans.html'
 })
