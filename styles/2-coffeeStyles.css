@@ -30,9 +30,7 @@
     height: 515px;
     margin-bottom: 150px;
   }
-  .container .card_container .card:nth-child(n + 4) {
-    margin-bottom: 0px;
-  }
+
   .container .card_container .card:hover .card_inner {
     transform: rotateY(180deg);
   }

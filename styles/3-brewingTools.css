@@ -30,6 +30,7 @@
     width: 80%;
     border-radius: 20px;
   }
+
   .container .card_container {
     display: flex;
     flex-wrap: wrap;
@@ -39,11 +40,8 @@
     perspective: 1000px;
     width: 350px;
     height: 515px;
-    margin-bottom: 150px;
-  }
-  .container .card_container .card:nth-child(n + 4) {
-    margin-bottom: 0px;
-  }
+    margin-bottom: 100px;
+  }  
   .container .card_container .card:hover .card_inner {
     transform: rotateY(180deg);
   }
@@ -64,7 +62,11 @@
     padding: 20px;
     position: absolute;
     backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
   .container .card_container .card_inner .front {
     font-size: 25px;
     line-height: 36px;
@@ -173,4 +175,4 @@
   ::-webkit-scrollbar-thumb:window-inactive {
     background: #ede1d5;
   }
-  
+

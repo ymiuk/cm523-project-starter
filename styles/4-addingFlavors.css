@@ -116,16 +116,9 @@
     background-position: center;
     background-size: cover;
   }
-  .card:hover .roasts_item {
+ .card:hover .roasts_item {
     transform: rotateY(180deg);
-  }
-  .card {
-    perspective: 1000px;
-    margin-bottom: 100px;
-  }
-  .card:nth-child(n + 5) {
-    margin-bottom: 0;
-  }
+  } 
   ::-webkit-scrollbar {
     width: 12px;
   }

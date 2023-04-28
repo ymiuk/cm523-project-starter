@@ -16,26 +16,54 @@
     <h1>
       Step 1: Picking Bean
     </h1>
-    <div class="twobeans">
-      <img
-        src='images/arabica.png'>
-    </div>
+    
     <article id="step1">
       <h3 class="beanstype">Two types of coffee beans</h3>
       <div class="flex_container">
-        <div class="flex_item"><span class="inner_text"><strong>Arabica:</strong></span><br> 
-          Origin: Ethiopia
-          Time to blossom: 7-9 months
-          Taste: Sweeter & softer
-          Caffeine: 0.8%-1.5%
-          Altitude: 800-1,200 m
+        <div class="flex_item">
+          <div class="twobeans">
+            <img
+              src='images/arabica.png'>
           </div>
-        <div class="flex_item"><span class="inner_text"><strong>Robusta:</strong></span><br> Origin: Kongo
-          Time to blossom: 9-11 months
-          Taste: Stronger & harsh
-          Caffeine: 1.7%-3.5%
-          Altitude: 0-900 m
+          <h4 class="inner_text">Arabica:</h4> 
+          <dl>
+            <dt>Origin:</dt>
+            <dd>Ethiopia</dd>
+            <dt>Time to blossom:</dt>
+            <dd>7-9 months</dd>
+            <dt>Taste:</dt>
+            <dd>Sweeter & softer</dd>
+            <dt>Caffeine:</dt>
+            <dd>0.8%-1.5%</dd>
+            <dt>Altitude:</dt>
+            <dd>800-1,200 m</dd>
+          </dl>     
+<input type="radio" name="bean-type" id="arabica-input" value="arabica"><label for="arabica-input">Arabica</label>
+
+
           </div>
+        <div class="flex_item">
+          <div class="twobeans">
+            <img
+              src='images/robusta.png'>
+          </div>
+          <h4 class="inner_text">Robusta:</h4>
+          <dl>
+            <dt>Origin:</dt>
+            <dd>Kongo</dd>
+            <dt>Time to blossom:</dt>
+            <dd>9-11 months</dd>
+            <dt>Taste:</dt>
+            <dd>Stronger & harsh</dd>
+            <dt>Caffeine:</dt>
+            <dd>1.7%-3.5%</dd>
+            <dt>Altitude:</dt>
+            <dd>0-900 m</dd>
+          </dl>
+ <input type="radio" name="bean-type" id="robusta-input" value="robusta"><label for="robusta-input">Robusta</label>
+
+          </div>
+
       </div>
       <h3>
         Roast Level
@@ -50,7 +78,9 @@
               acidity, along with higher caffeine content. They are an excellent choice if you want to emphasize the
               bean's original flavor in your recipes or brew a bright cup of coffee to start your day.</div>
           </div>
+<input type="radio" name="roast-type" id="roast-input" value="light"><label for="roast-input">light</label>
         </div>
+        
         <div class="card">
           <div class="roasts_item">
             <div class="front">Medium Roasts</div>
@@ -60,7 +90,9 @@
               roasts are a common choice for brewed coffee due to their balanced flavor profiles, pairing well with
               beans of the Arabica and Excelsa varieties.</div>
           </div>
+<input type="radio" name="roast-type" id="roast-input" value="medium"><label for="roast-input">medium</label>
         </div>
+
         <div class="card">
           <div class="roasts_item">
             <div class="front">Dark Roasts</div>
@@ -72,10 +104,14 @@
               to the longer roasting time, dark roasts have lower acidity and lower caffeine content compared to light
               and medium roasts.</div>
           </div>
+<input type="radio" name="roast-type" id="roast-input" value="dark"><label for="roast-input">dark</label>
         </div>
       </div>
+      
       <button class="step" ><a href="index.html">Back Home</a></button>
-      <button class="step" ><a href="2-coffeeStyles.html">Next Step</a></button>
+      <button id="save-choices" class="step" >Save Choices</button>
+      <button class="step"><a href="2-coffeeStyles.html">Next Step</a></button>
+            
     </article>
   </div>
 </body>
