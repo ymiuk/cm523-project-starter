@@ -1,4 +1,5 @@
 const btnArr = Array.from(document.querySelectorAll('.item'))
+/*
 const backBtn = document.querySelector('.back')
 const submitBtn = document.querySelector('.submitBtn')
 const img = document.querySelector('.img')
@@ -62,3 +63,54 @@ backBtn.addEventListener('click', () => {
 //     homeContainer.style.marginTop = '0'
 //   }
 // }
+
+
+/*  <legend>Dinner</legend>
+<input type="radio" name="dinnerChoices" id="dinnerChoiceFish" value="Fish"> Fish
+<input type="radio" name="dinnerChoices" id="dinnerChoiceChicken" value="Chicken"> Chicken
+<input type="radio" name="dinnerChoices" id="dinnerChoiceVeggies" value="Veggies"> Veggies
+</fieldset> 
+
+<input type="radio" name="flavor-type" id="flavor-input" value="Whole Milk"><label for="flavor-input">Whole Milk</label>
+
+/*to display the user input, input = any choices*/
+function getOrder(){
+  beanChoice.forEach( bean => {
+    if (bean.checked) {
+      localStorage.setItem('bean choice', bean.value )
+      console.log('your bean is ' + bean.value);
+
+    }
+  });
+  roastChoice.forEach( roast => {
+    if (roast.checked) {
+      localStorage.setItem('roast choice', roast.value )
+      console.log('the roast of bean you picked is ' + roast.value);
+
+    }
+  });
+  styleChoice.forEach( style => {
+    if (style.checked) {
+      localStorage.setItem('style choice', style.value )
+      console.log('your coffee style is ' + style.value);
+    }
+  });
+  toolChoice.forEach( tool => {
+    if (tool.checked) {
+      localStorage.setItem('tool choice', tool.value )
+      console.log('the tool you selected for your coffee is ' + tool.value);
+    }
+  });
+  flavorChoice.forEach( flavor => {
+    if (flavor.checked) {
+      localStorage.setItem('flavor choice', flavor.value )
+      console.log('the flavor you want to add is ' + flavor.value);
+    }
+  });
+}
+
+function printOrder(ord){
+  result.textContent = `Thank you for your order of ${ord.bean} for bean, ${ord.style} for style, ${ord.tool} for tool, and ${ord.flavor} for flavor.`;
+}
+
+  

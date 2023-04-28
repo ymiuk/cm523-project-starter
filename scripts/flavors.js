@@ -25,8 +25,9 @@ saveBtn.addEventListener('click', getFlavorInfo );
   function getFlavorInfo(){
     flavorChoice.forEach( flavor => {
       if (flavor.checked) {
-        localStorage.setItem('roast choice', flavor.value )
+        localStorage.setItem('flavor choice', flavor.value )
         console.log('the flavor you want to add is ' + flavor.value);
       }
     });
 }
+

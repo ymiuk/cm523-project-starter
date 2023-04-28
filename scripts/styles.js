@@ -25,7 +25,7 @@ saveBtn.addEventListener('click', getStyleInfo );
   function getStyleInfo(){
     styleChoice.forEach( style => {
       if (style.checked) {
-        localStorage.setItem('roast choice', style.value )
+        localStorage.setItem('style choice', style.value )
         console.log('your coffee style is ' + style.value);
       }
     });
