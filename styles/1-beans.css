@@ -31,8 +31,7 @@ img {
   justify-content: center;
 }
 .container .twobeans img {
-  width: 100%;
-  border-radius: 20px;
+  width: 80%;
 }
 
   @media screen and (min-width: 480px) {
@@ -167,6 +166,33 @@ img {
     }
     ::-webkit-scrollbar-thumb:window-inactive {
       background: #ede1d5;
+    }
+    .roasts_container .card{
+      margin-bottom: 2rem;
+    }
+  
+    input[type="radio"] {
+      width: 100%;
+      margin: 8px 0;
+    }
+
+    dl {
+      width: 100%;
+      overflow: hidden;
+      padding: 0;
+      margin: 0
+    }
+    dt {
+      float: left;
+      width: 50%;
+      padding: 0;
+      margin: 0    
+    }
+    dd {
+      float: left;
+      width: 50%;
+      padding: 0;
+      margin: 0     
     }
   
 

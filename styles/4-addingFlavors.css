@@ -1,3 +1,6 @@
+* {
+  list-style: none;
+}
 .container {
     color: #5b3422;
     padding: 100px 150px;
@@ -9,12 +12,12 @@
     text-transform: uppercase;
     letter-spacing: 0.18em;
     text-align: center;
+    margin: 0 -150px;
     margin-bottom: 5.5rem;
     font-weight: normal;
     padding: 40px 0;
     background-color: #9d6d4e;
     color: #C7baab;
-    margin: 0 -150px;
   }
   .container button {
     background-color: #C7baab;
@@ -137,3 +140,12 @@
     background: #ede1d5;
   }
   
+  .roasts_container .card{
+    margin-bottom: 2rem;
+  }
+
+  input[type="radio"] {
+    width: 100%;
+    margin: 8px 0;
+  }
+
