@@ -9,34 +9,31 @@
   <link rel="icon" type="image/x-icon" href="./images/icon.png">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/lastPage.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body> 
   <div class="container">
-  <!--  
-    <div class="home_container">
-      <div class="home_text">
-        <h1 class="top">Which coffee do you like?</h1>
-        <div class="coffee_choices">
-          <button class="item">Americano</button>
-          <button class="item">Latte</button>
-          <button class="item">Espresso</button>
-          <button class="item">Mocha</button>
-          <button class="item">Cappuccino</button>
-          <button class="item">Macchiato</button>
-        </div>
-        <button class="submitBtn" style="opacity: 0; margin-top: 200px; pointer-events: none;">Submit</button>
-      </div>
-    </div>
-  --> 
     <div class="coffee_step_container">
       <div class="text">Your coffee is ready</div>
-      <div class="img_container">
-        <!-- 
-        <img class="img" src="/images/milk.png" alt="">
-        --> 
+      <div class="card" style="width: 50rem;" id="dropDownMenu">
+        <img class="card-img-top card-img" src="./images/cappuccino.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Coffee Result!</h5>
+        </div>
+        <div style="border:2px solid #a1a1a1;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="beanChoice"></li>
+          <li class="list-group-item" id="roastChoice"></li>
+          <li class="list-group-item" id="styleChoice"></li>
+          <li class="list-group-item" id="toolChoice"></li>
+          <li class="list-group-item" id="flavorChoice"></li>
+        </ul>
       </div>
-      <button class="back"><a href="index.html">Back Home</a></button>
+      </div>
+      <div class="button_container">
+      <button class="step"><a href="index.html">Back Home</a></button>
+      </div>
     </div>
   </div>
 </body>
