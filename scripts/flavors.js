@@ -1,33 +1,18 @@
-const stepArr = Array.from(document.querySelectorAll('.step'))
-/*
-stepArr[0].addEventListener('click', () => {
-  window.location.href = '../3-brewingTools.html'
-})
+const stepArr = Array.from(document.querySelectorAll(".step"));
+const flavorChoice = Array.from(document.getElementsByName("flavor-type"));
 
-stepArr[1].addEventListener('click', () => {
-  window.location.href = '../lastPage.html'
-})
-*/
-const flavorChoice = Array.from(document.getElementsByName('flavor-type'));
+flavorChoice.forEach((choice) => {
+  choice.addEventListener("change", getFlavorInfo);
+});
 
-const saveBtn = document.getElementById('save-choices');
-
-flavorChoice[0].addEventListener('change', getFlavorInfo);
-flavorChoice[1].addEventListener('change', getFlavorInfo);
-flavorChoice[2].addEventListener('change', getFlavorInfo);
-flavorChoice[3].addEventListener('change', getFlavorInfo);
-flavorChoice[4].addEventListener('change', getFlavorInfo);
-flavorChoice[5].addEventListener('change', getFlavorInfo);
-flavorChoice[6].addEventListener('change', getFlavorInfo);
-
-saveBtn.addEventListener('click', getFlavorInfo );
-  
-  function getFlavorInfo(){
-    flavorChoice.forEach( flavor => {
-      if (flavor.checked) {
-        localStorage.setItem('flavor choice', flavor.value )
-        console.log('the flavor you want to add is ' + flavor.value);
-      }
-    });
+function getFlavorInfo() {
+  flavorChoice.forEach((flavor) => {
+    if (flavor.checked) {
+      localStorage.setItem("flavorChoice", flavor.value);
+      console.log(`Flavor selected: ${flavor.value}`);
+    }
+  });
 }
 
+// const saveBtn = document.getElementById('save-choices');
+// saveBtn.addEventListener('click', getFlavorInfo );

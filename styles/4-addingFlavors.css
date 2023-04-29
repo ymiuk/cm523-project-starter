@@ -50,10 +50,7 @@ body {
   padding-top: 5rem;
   padding-bottom: 2.5rem;
 }
-.container button a{
-  color: #5e3817;
-  text-decoration: none;
-}
+
 .container .step {
   background-color: #C7baab;
   border: none;
@@ -77,6 +74,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .container .card_container .card {
@@ -161,6 +160,8 @@ body {
       padding-bottom: 2.5rem;
     }
   }
+
+
   
   @media screen and (max-width: 389px) {
     
