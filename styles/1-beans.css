@@ -175,6 +175,9 @@ dd {
       margin-bottom: 2rem;
     }
   
+    #roast-input {
+      
+    }
 
   @media screen and (min-width: 380px) {
     .flex_container {

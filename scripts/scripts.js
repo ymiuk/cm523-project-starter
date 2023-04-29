@@ -1,4 +1,5 @@
 /* WRITE YOUR JS HERE... YOU MAY REQUIRE MORE THAN ONE JS FILE. IF SO SAVE IT SEPARATELY IN THE SCRIPTS DIRECTORY */
+
 const stepItemArr = Array.from(document.querySelectorAll('.step_item'))
 const startBtn = document.querySelector('.start_btn')
 const homeContainer = document.querySelector('.home_container')
@@ -8,6 +9,7 @@ async function stepFunc(el, url) {
     window.location.href = url
   })
 }
+
 
 /* step to sub-page
 Promise.all([
