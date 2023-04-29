@@ -1,115 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beans</title>
+    <link rel="icon" type="image/x-icon" href="./images/icon.png" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/1-beans.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>beans</title>
-  <link rel="icon" type="image/x-icon" href="./images/icon.png">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/1-beans.css">
-</head>
+  <body>
+    <div class="container">
+      <h1>Step 1: Picking Bean</h1>
+      <article id="step1">
+        <div>
+          <h3 class="beanstype">Two types of coffee beans</h3>
+          <div class="flex_container">
+            <div>
+              <div class="flex_item">
+                <div class="twobeans">
+                  <img src="images/arabica.png" />
+                </div>
+                <h4 class="inner_text">Arabica</h4>
+                <dl>
+                  <dt>Origin:</dt>
+                  <dd>Ethiopia</dd>
+                  <dt>Time to blossom:</dt>
+                  <dd>7-9 months</dd>
+                  <dt>Taste:</dt>
+                  <dd>Sweeter & softer</dd>
+                  <dt>Caffeine:</dt>
+                  <dd>0.8%-1.5%</dd>
+                  <dt>Altitude:</dt>
+                  <dd>800-1,200 m</dd>
+                </dl>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="bean-type" id="arabica-input" value="Arabica">
+                <label for="arabica-input">Arabica</label>
+              </div>
+            </div>
+            <div>
+              <div class="flex_item">
+                <div class="twobeans">
+                  <img src="images/robusta.png" />
+                </div>
+                <h4 class="inner_text">Robusta</h4>
+                <dl>
+                  <dt>Origin:</dt>
+                  <dd>Kongo</dd>
+                  <dt>Time to blossom:</dt>
+                  <dd>9-11 months</dd>
+                  <dt>Taste:</dt>
+                  <dd>Stronger & harsh</dd>
+                  <dt>Caffeine:</dt>
+                  <dd>1.7%-3.5%</dd>
+                  <dt>Altitude:</dt>
+                  <dd>0-900 m</dd>
+                </dl>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="bean-type" id="robusta-input" value="Robusta">
+                <label for="robusta-input">Robusta</label>
+              </div>
+            </div>
 
-<body>
-  <div class="container">
-    <h1>
-      Step 1: Picking Bean
-    </h1>
-    
-    <article id="step1">
-      <h3 class="beanstype">Two types of coffee beans</h3>
-      <div class="flex_container">
-        <div class="flex_item">
-          <div class="twobeans">
-            <img
-              src='images/arabica.png'>
           </div>
-          <h4 class="inner_text">Arabica:</h4> 
-          <dl>
-            <dt>Origin:</dt>
-            <dd>Ethiopia</dd>
-            <dt>Time to blossom:</dt>
-            <dd>7-9 months</dd>
-            <dt>Taste:</dt>
-            <dd>Sweeter & softer</dd>
-            <dt>Caffeine:</dt>
-            <dd>0.8%-1.5%</dd>
-            <dt>Altitude:</dt>
-            <dd>800-1,200 m</dd>
-          </dl>     
-          </div>
-<input type="radio" name="bean-type" id="arabica-input" value="arabica"><label for="arabica-input">Arabica</label>
-
-        <div class="flex_item">
-          <div class="twobeans">
-            <img
-              src='images/robusta.png'>
-          </div>
-          <h4 class="inner_text">Robusta:</h4>
-          <dl>
-            <dt>Origin:</dt>
-            <dd>Kongo</dd>
-            <dt>Time to blossom:</dt>
-            <dd>9-11 months</dd>
-            <dt>Taste:</dt>
-            <dd>Stronger & harsh</dd>
-            <dt>Caffeine:</dt>
-            <dd>1.7%-3.5%</dd>
-            <dt>Altitude:</dt>
-            <dd>0-900 m</dd>
-          </dl>
-          </div>
-<input type="radio" name="bean-type" id="robusta-input" value="robusta"><label for="robusta-input">Robusta</label>
-
-      </div>
-      <h3>
-        Roast Level
-      </h3>
-      <div class="roasts_container">
-        <div class="card">
-          <div class="roasts_item">
-            <div class="front">Light Roasts</div>
-            <div class="back">Light roasts are coffee beans that are roasted for a shorter amount of time, resulting in
-              a light brown color and a light-bodied coffee. Due to the shorter roasting time, light roasts retain more
-              of the original flavor of the coffee bean. Light roasts tend to have fruity or citrus notes and a higher
-              acidity, along with higher caffeine content. They are an excellent choice if you want to emphasize the
-              bean's original flavor in your recipes or brew a bright cup of coffee to start your day.</div>
-          </div>
-<input type="radio" name="roast-type" id="roast-input" value="light"><label for="roast-input">light</label>
-        </div>
-        
-        <div class="card">
-          <div class="roasts_item">
-            <div class="front">Medium Roasts</div>
-            <div class="back">Medium roasts are coffee beans that are roasted for a longer time than light roasts but
-              not as long as dark roasts. They have a medium brown color and a medium-bodied coffee with a more balanced
-              flavor profile. As roast temperature increases, the coffee beans begin to lose their acidity. Medium
-              roasts are a common choice for brewed coffee due to their balanced flavor profiles, pairing well with
-              beans of the Arabica and Excelsa varieties.</div>
-          </div>
-<input type="radio" name="roast-type" id="roast-input" value="medium"><label for="roast-input">medium</label>
         </div>
 
-        <div class="card">
-          <div class="roasts_item">
-            <div class="front">Dark Roasts</div>
-            <div class="back">Dark roasts are coffee beans that are roasted for a longer time at higher temperatures,
-              resulting in a dark brown color and a full-bodied coffee with a robust flavor profile. Dark roasts are a
-              great option for delivering intense, rich flavor to recipes, pairing well with beans of the Arabica
-              variety. However, due to the longer roasting time, dark roasts have lower acidity and lower caffeine content compared to light
-              and medium roasts.</div>
+        <div>
+          <h3>Roast Level</h3>
+          <div class="roasts_container">
+            <div class="card">
+              <div class="roasts_item">
+                <div class="front">Light Roasts</div>
+                <div class="back">
+                  Light roasts are coffee beans that are roasted for a shorter
+                  amount of time, resulting in a light brown color and a
+                  light-bodied coffee. Due to the shorter roasting time, light
+                  roasts retain more of the original flavor of the coffee bean.
+                  Light roasts tend to have fruity or citrus notes and a higher
+                  acidity, along with higher caffeine content. They are an
+                  excellent choice if you want to emphasize the bean's original
+                  flavor in your recipes or brew a bright cup of coffee to start
+                  your day.
+                </div>
+              </div>
+              <input
+                type="radio"
+                name="roast-type"
+                id="roast-input"
+                value="Light"
+              /><label for="roast-input">Light</label>
+            </div>
+
+            <div class="card">
+              <div class="roasts_item">
+                <div class="front">Medium Roasts</div>
+                <div class="back">
+                  Medium roasts are coffee beans that are roasted for a longer
+                  time than light roasts but not as long as dark roasts. They
+                  have a medium brown color and a medium-bodied coffee with a
+                  more balanced flavor profile. As roast temperature increases,
+                  the coffee beans begin to lose their acidity. Medium roasts
+                  are a common choice for brewed coffee due to their balanced
+                  flavor profiles, pairing well with beans of the Arabica and
+                  Excelsa varieties.
+                </div>
+              </div>
+              <input
+                type="radio"
+                name="roast-type"
+                id="roast-input"
+                value="Medium"
+              /><label for="roast-input">Medium</label>
+            </div>
+
+            <div class="card">
+              <div class="roasts_item">
+                <div class="front">Dark Roasts</div>
+                <div class="back">
+                  Dark roasts are coffee beans that are roasted for a longer
+                  time at higher temperatures, resulting in a dark brown color
+                  and a full-bodied coffee with a robust flavor profile. Dark
+                  roasts are a great option for delivering intense, rich flavor
+                  to recipes, pairing well with beans of the Arabica variety.
+                  However, due to the longer roasting time, dark roasts have
+                  lower acidity and lower caffeine content compared to light and
+                  medium roasts.
+                </div>
+              </div>
+              <input
+                type="radio"
+                name="roast-type"
+                id="roast-input"
+                value="Dark"
+              /><label for="roast-input">Dark</label>
+            </div>
           </div>
-<input type="radio" name="roast-type" id="roast-input" value="dark"><label for="roast-input">dark</label>
         </div>
-      </div>
-     <div class="button_container">
-      <button class="step" ><a href="index.html">Back Home</a></button>
-      <button id="save-choices" class="step" >Save Choices</button>
-      <button class="step"><a href="2-coffeeStyles.html">Next Step</a></button>
-    </div>       
-    </article>
-  </div>
-</body>
-<script src="./scripts/beans.js"></script>
+
+        <div class="button_container">
+          <button class="step"><a href="index.html">Back Home</a></button>
+          <!-- <button id="save-choices" class="step">Save Choices</button> -->
+          <button class="step">
+            <a href="2-coffeeStyles.html">Next Step</a>
+          </button>
+        </div>
+      </article>
+    </div>
+  </body>
+  <script src="./scripts/beans.js"></script>
 </html>
