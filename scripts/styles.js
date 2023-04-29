@@ -1,32 +1,18 @@
-const stepArr = Array.from(document.querySelectorAll('.step'))
-/*
-stepArr[0].addEventListener('click', () => {
-  window.location.href = '../beans.html'
-})
+const stepArr = Array.from(document.querySelectorAll(".step"));
+const styleChoice = Array.from(document.getElementsByName("style-type"));
 
-stepArr[1].addEventListener('click', () => {
-  window.location.href = '../3-brewingTools.html'
-})
-*/
+styleChoice.forEach((choice) => {
+  choice.addEventListener("change", getStyleInfo);
+});
 
-const styleChoice = Array.from(document.getElementsByName('style-type'));
-
-const saveBtn = document.getElementById('save-choices');
-
-styleChoice[0].addEventListener('change', getStyleInfo);
-styleChoice[1].addEventListener('change', getStyleInfo);
-styleChoice[2].addEventListener('change', getStyleInfo);
-styleChoice[3].addEventListener('change', getStyleInfo);
-styleChoice[4].addEventListener('change', getStyleInfo);
-styleChoice[5].addEventListener('change', getStyleInfo);
-
-saveBtn.addEventListener('click', getStyleInfo );
-  
-  function getStyleInfo(){
-    styleChoice.forEach( style => {
-      if (style.checked) {
-        localStorage.setItem('style choice', style.value )
-        console.log('your coffee style is ' + style.value);
-      }
-    });
+function getStyleInfo() {
+  styleChoice.forEach((style) => {
+    if (style.checked) {
+      localStorage.setItem("styleChoice", style.value);
+      console.log(`Coffee style selected: ${style.value}`);
+    }
+  });
 }
+
+// const saveBtn = document.getElementById('save-choices');
+// saveBtn.addEventListener('click', getStyleInfo );
