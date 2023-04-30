@@ -1,3 +1,10 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
 .container {
   position: relative;
   height: 100vh;
@@ -100,7 +107,7 @@
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   .container {
     text-align: center;
   }

@@ -10,23 +10,16 @@ async function stepFunc(el, url) {
   })
 }
 
-
-/* step to sub-page
-Promise.all([
-  stepFunc(stepItemArr[0],'beans.html'), 
-  stepFunc(stepItemArr[1],'../2-coffeeStyles.html'),
-  stepFunc(stepItemArr[2],'../3-brewingTools.html'),
-  stepFunc(stepItemArr[3],'../4-addingFlavors.html')
-])
-*/
 // scrolling from top page and bottom page 
 let isStepPage = false
 
 // click Start to move
+/* 
 startBtn.addEventListener('click', () => {
   isStepPage = true
   homeContainer.style.marginTop = '-100vh'
 })
+*/
 
 window.onmousewheel = document.onmousewheel = (e) => {
   if (e.wheelDelta < 0 && !isStepPage) {
@@ -37,5 +30,13 @@ window.onmousewheel = document.onmousewheel = (e) => {
     homeContainer.style.marginTop = '0'
   }
 }
+
+startBtn.addEventListener('click', () => {
+  const innerHeight = window.innerHeight
+  window.scrollTo({
+    top: innerHeight,
+    behavior: 'smooth'
+  })
+})
 
 
