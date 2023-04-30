@@ -106,6 +106,25 @@ html{
   z-index: 99;
 }
 
+nav {
+  display: flex;
+  flex: 1;
+}
+nav ul{
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 0;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 16px;
+}
+
 
 @media screen and (max-width: 768px) {
   .container {
@@ -129,5 +148,18 @@ html{
     height: 50vh;
 }
 
+.container .coffee_step_container {
+  height: 50vh;
+}
+
+nav ul {
+  flex-flow: column wrap;
+}
+
+nav ul a { 
+  text-align: center; 
+  padding: 10px;
+  margin-left: 30px;
+}
 
 }
