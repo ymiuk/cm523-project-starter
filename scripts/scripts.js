@@ -14,12 +14,12 @@ async function stepFunc(el, url) {
 let isStepPage = false
 
 // click Start to move
-/* 
+
 startBtn.addEventListener('click', () => {
   isStepPage = true
   homeContainer.style.marginTop = '-100vh'
 })
-*/
+
 
 window.onmousewheel = document.onmousewheel = (e) => {
   if (e.wheelDelta < 0 && !isStepPage) {

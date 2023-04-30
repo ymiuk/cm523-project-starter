@@ -135,7 +135,6 @@ nav ul a {
   }
   nav ul a { 
     text-align: center; 
-    padding: 10px;
   }
   
 .centerbt{
@@ -158,4 +157,6 @@ figure {
 .coffeestyle{
   font-size: 28px;
   text-align: center; 
+}
+
 }
