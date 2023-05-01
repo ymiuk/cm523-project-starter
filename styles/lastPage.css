@@ -41,6 +41,11 @@ body {
   font-weight: normal;
 }
 
+.container .coffee_step_container .card{
+  width: 50rem;
+}
+
+
 button {
   background-color: #c7baab;
   border: none;
@@ -173,6 +178,11 @@ h5 {
   .card-title {
     font-size: 1.5rem;
   }
+
+  .container .coffee_step_container .card{
+    width: auto;
+  }
+
 
 }
 
