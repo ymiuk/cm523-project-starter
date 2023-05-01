@@ -163,16 +163,15 @@ body {
 
 
   
-  @media screen and (max-width: 389px) {
+  @media screen and (max-width: 768px) {
     
     .container h1 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       text-transform: uppercase;
       letter-spacing: 0.18em;
       text-align: center;
       margin-bottom: 10rem;
       font-weight: normal;
-      padding: 15px;
       background-color: #9d6d4e;
       color: #C7baab;
     }
