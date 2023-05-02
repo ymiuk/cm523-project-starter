@@ -122,7 +122,6 @@ dd {
   display: inline-block;
   margin: auto;
   font-size: 18px;
-  margin-top: 10.5em;
   border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
@@ -131,7 +130,6 @@ dd {
 .step:hover {
   opacity: 0.7;
 }
-
 
 .roasts_container .roasts_item .front,
     .roasts_container .roasts_item .back {
@@ -186,12 +184,13 @@ dd {
       margin-bottom: 2rem;
     }
 
-  @media screen and (min-width: 380px) {
+  @media screen and (max-width: 768px) {
     .flex_container {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
     }
+
     .flex_container .flex_item{
       margin-bottom: 1rem;
     }      
@@ -209,5 +208,11 @@ dd {
 }
   } 
 
- 
+  @media screen and (max-width: 350px)
+  {
+    .flex_container .flex_item {
+      width: auto;
+    }
+  }
+  
 

@@ -181,7 +181,7 @@ input[type="radio"] {
   margin: 8px 0;
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (max-width: 768px) {
   
 .container .step {
     margin-top: 1em;
@@ -195,5 +195,7 @@ input[type="radio"] {
   padding-top: 1rem;
   padding-bottom: 2.5rem;
 }
-
+.container .img img {
+  width: 80%;
+}
 }

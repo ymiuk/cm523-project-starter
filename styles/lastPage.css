@@ -45,8 +45,7 @@ body {
   width: 50rem;
 }
 
-
-button {
+.button_container .step {
   background-color: #c7baab;
   border: none;
   color: #5e3817;
@@ -60,7 +59,7 @@ button {
   cursor: pointer;
   transition: 0.5s;
 }
-button a{
+.button_container a{
   color: #5e3817;
   text-decoration: none;
 }
@@ -75,13 +74,10 @@ button a{
   padding-bottom: 2.5rem;
 }
 
-button:hover {
-  transform: scale(1.1);
-  background-color: #5e3817;
-}
-
-button:hover a{
+.button_container:hover a{
   color: #C7baab;
+  background-color: #5e3817;
+  transform: scale(1.1);
 }
 
 .list-group li {
