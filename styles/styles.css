@@ -127,11 +127,6 @@ nav ul a {
   nav ul a { 
     text-align: center; 
   }
-  
-.centerbt{
-    display: grid;
-    justify-content: center;
-  }
 
 img {
 	width: 100%;
@@ -143,11 +138,6 @@ figure {
 	margin-right: 1rem;
 	margin-bottom: 1em;
 	margin-top: 1em;
-}
-
-.coffeestyle{
-  font-size: 28px;
-  text-align: center; 
 }
 
 }
